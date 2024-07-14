@@ -15,7 +15,21 @@
     transition: 0.8s all;
 
 }
+.calculator {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
 
+.calculator input[type="button"] {
+    transition: all 0.2s ease;
+}
+
+.calculator input[type="button"]:hover {
+    transform: scale(1.05);
+}
+
+.calculator input[type="button"]:active {
+    transform: scale(0.95);
+}
 .calculator form input {
     border: 0;
     outline: 0;
